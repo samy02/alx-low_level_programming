@@ -1,14 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 /*
  * print_alfabet -  suposed to print the alphabet
  *
  */
-void print_alfabet(void)
+void print_alphabet(void)
 {
-	int a = 0;
-	for(a=97; a<=122; a++; )
+	char s = 'a';
+
+	while (s <= 'z')
 	{
-		printf("%c",a);
+		_putchar(s);
+		s++;
+
 	}
+	_putchar('\n');
+
 }
