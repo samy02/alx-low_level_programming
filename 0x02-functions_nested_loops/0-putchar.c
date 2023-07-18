@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *main - this returns the word _putchar
+ * main - this returns the word _putchar
  * Return: 0 (sucsses)
  */
 int main(void)
