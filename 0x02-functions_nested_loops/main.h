@@ -1,1 +1,1 @@
-int _putchat(char c):
+int _putchat(char c);
