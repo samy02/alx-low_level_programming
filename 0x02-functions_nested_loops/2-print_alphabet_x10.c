@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_alphabet_x10 - printing the alphabet 10 times seperated by a new line
@@ -11,7 +12,7 @@ void print_alphabet_x10(void)
 	{
 		for(j=97; j<=122; j++)
 		{
-			_putchar('int j');
+			printf("%c",j);
 		}
 		_putchar('\n');
 	}
