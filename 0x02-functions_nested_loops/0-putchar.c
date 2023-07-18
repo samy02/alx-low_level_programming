@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * main - this returns the word _putchar
- * Return: 0 (sucsses)
+ * main -  returns the word _putchar followed by a new line
+ * Return: Always 0 (sucsses)
  */
 int main(void)
 {
